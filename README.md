@@ -13,3 +13,21 @@ This project extracts text from images using **Tesseract OCR** and optionally tr
 - ✅ Easy-to-use command line interface
 
 ---
+
+## 🛠️ Requirements
+
+Install dependencies using pip:
+
+```bash
+pip install pytesseract pillow googletrans==4.0.0-rc1
+```
+
+Also, download and install Tesseract-OCR from:
+
+🔗 https://github.com/tesseract-ocr/tesseract
+
+⚠️ Don't forget to update this line in the script to the correct path of your Tesseract installation:
+
+```
+pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+```
