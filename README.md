@@ -61,4 +61,13 @@ With each image result separated by a line of underscores for readability.
 
 ---
 
-## 
+## 📍 Example
+Input Image (English):
+
+Output in text.txt:
+```
+Hello World
+__________________________________________________
+سلام دنیا
+__________________________________________________
+```
