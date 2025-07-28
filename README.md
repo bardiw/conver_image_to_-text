@@ -49,3 +49,16 @@ Type y to translate English texts to Persian.
 
 Type n to only extract English and Persian text without translation.
 
+---
+
+## 📦 Output
+All results (extracted and translated text) are saved in:
+
+```
+text.txt
+```
+With each image result separated by a line of underscores for readability.
+
+---
+
+## 
