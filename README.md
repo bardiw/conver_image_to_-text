@@ -31,3 +31,21 @@ Also, download and install Tesseract-OCR from:
 ```
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 ```
+
+---
+
+## 🚀 How to Use
+Run the script:
+
+```
+python conver_image_to_text.py
+```
+It will ask:
+
+```
+Do you want the photos to be translated into Persian?(y/n):
+```
+Type y to translate English texts to Persian.
+
+Type n to only extract English and Persian text without translation.
+
